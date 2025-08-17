@@ -1,3 +1,27 @@
 .next
 node_modules/
 next-env
+
+# Python virtual environment
+.venv
+workspace
+# In case of a specific venv
+__pycache__/
+*.py[co]
+*$py.class
+
+.Python
+
+# Poetry
+__pycache__/
+*.egg-info/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytype
+.pytype/
+.pytype.stamp
+
